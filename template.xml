@@ -523,7 +523,7 @@
                 </Selector>
                 <SquishBox id="title_bar">
                     <Main id="cost">
-                        <HorizontalLayout x="2925" y="512" alignment="end">
+                        <HorizontalLayout x="2915" y="512" alignment="end">
                             <Spacer width="50" height="15"/>
                             <Text value="${mana_cost}">
                                 <Style font="NDPMTG" size="175">
@@ -538,13 +538,13 @@
                     <Flex>
                         <Selector id="name">
                             <Selector id="dfc">
-                                <Text x="680" y="525" value="${name}">
+                                <Text x="550" y="525" value="${name}">
                                     <Style font="Beleren2016-Bold" color="#000000" size="160"/>
                                     <Conditions>
                                         <IsEquals key="proximity.mtg.front_face"/>
                                     </Conditions>
                                 </Text>
-                                <Text x="680" y="525" value="${name}">
+                                <Text x="550" y="525" value="${name}">
                                     <Style font="Beleren2016-Bold" color="#FFFFFF" size="160"/>
                                     <Conditions>
                                         <IsEquals key="proximity.mtg.front_face" value="false"/>
@@ -558,7 +558,7 @@
                                     </Or>
                                 </Conditions>
                             </Selector>
-                            <Text x="400" y="525" value="${name}">
+                            <Text x="413" y="525" value="${name}">
                                 <Style font="Beleren2016-Bold" color="#000000" size="160"/>
                             </Text>
                         </Selector>
@@ -605,13 +605,13 @@
                         <Image id="gold"/>
                     </Selector>
                     <Selector>
-                        <Text id="vehicle" x="2740" y="4060" alignment="center" value="${power}/${toughness}">
+                        <Text id="vehicle" x="2740" y="4062" alignment="center" value="${power}/${toughness}">
                             <Style font="Beleren2016-Bold" color="#FFFFFF" size="160"/>
                             <Conditions>
                                 <IsPresent key="proximity.mtg.types.vehicle"/>
                             </Conditions>
                         </Text>
-                        <Text id="creature" x="2740" y="4060" alignment="center" value="${power}/${toughness}">
+                        <Text id="creature" x="2740" y="4054" alignment="center" value="${power}/${toughness}">
                             <Style font="Beleren2016-Bold" color="#000000" size="160"/>
                             <Conditions>
                                 <IsPresent key="proximity.mtg.types.creature"/>
