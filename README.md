@@ -30,7 +30,7 @@ The [Equinox template](https://github.com/PedroLuisBernardos/Equinox-template-fo
  
 | ![preview image](/Preview%20Images/crop.png) | ![preview image](/Preview%20Images/purphoros.png) | ![preview image](/Preview%20Images/wrenn.png) |
 | --- | --- | --- |
-| ![preview image](/Preview%20Images/Esper%20Sentinel%20(MH2%20Equinox).png) | ![preview image](/Preview%20Images/Nicol%20Bolas,%20the%20Ravager%20(M19%20Equinox).png) | ![preview image](/Preview%20Images/Waterlogged%20Grove%20(MH1%20Equinox).png) |
+| ![preview image](/Preview%20Images/esper.png) | ![preview image](/Preview%20Images/nicol.png) | ![preview image](/Preview%20Images/waterlogged.png) |
 
 ## How to modify the image size and position
 
@@ -54,4 +54,4 @@ The Power/Thoughness (pt) template for the back side of the cards is not used by
 
 | using front pt | using back pt |
 | --- | --- |
-| ![preview image](/Preview%20Images/front%20pt.png) | ![preview image](/Preview%20Images/back%20pt.png) |
+| ![preview image](/Preview%20Images/front.png) | ![preview image](/Preview%20Images/back.png) |
